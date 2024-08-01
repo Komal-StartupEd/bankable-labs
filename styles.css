@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section p {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
