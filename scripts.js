@@ -8,6 +8,20 @@ $(document).ready(function () {
         }, 800);
     });
 
+    // Typing effect
+    const text = "Your idea to app in 1 week";
+    let index = 0;
+
+    function typeText() {
+        if (index < text.length) {
+            $('#typing-effect').append(text.charAt(index));
+            index++;
+            setTimeout(typeText, 100);
+        }
+    }
+
+    typeText();
+
     // Form submission
     $('#contact-form').submit(function (e) {
         e.preventDefault();
